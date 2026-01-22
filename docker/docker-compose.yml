@@ -1,0 +1,51 @@
+# docker/docker-compose.yml
+version: '3.8'
+
+services:
+  orchestrator:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: green-ai-orchestrator
+    environment:
+      - ELECTRICITY_MAPS_API_KEY=${ELECTRICITY_MAPS_API_KEY:-}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+      - OUTPUT_DIR=/app/results
+    volumes:
+      - ./results:/app/results
+      - ./config:/app/config:ro
+    restart: unless-stopped
+    # For Linux hosts with battery access
+    # volumes:
+    #   - /sys/class/power_supply:/sys/class/power_supply:ro
+    #   - /proc/acpi/battery:/proc/acpi/battery:ro
+    networks:
+      - green-ai-network
+
+  api:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile
+    container_name: green-ai-api
+    command: python api_server.py --host 0.0.0.0 --port 8000 --log-level ${LOG_LEVEL:-INFO}
+    ports:
+      - "8000:8000"
+    environment:
+      - ELECTRICITY_MAPS_API_KEY=${ELECTRICITY_MAPS_API_KEY:-}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+    volumes:
+      - ./api_results:/app/results
+      - ./config:/app/config:ro
+    depends_on:
+      - orchestrator
+    restart: unless-stopped
+    networks:
+      - green-ai-network
+
+networks:
+  green-ai-network:
+    driver: bridge
+
+volumes:
+  results:
+  api_results:

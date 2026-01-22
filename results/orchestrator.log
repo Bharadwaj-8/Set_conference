@@ -1,0 +1,156 @@
+2026-01-16 13:34:35 - root - INFO - Logging initialized (level: INFO)
+2026-01-16 13:34:35 - root - INFO - Log file: results/orchestrator.log
+2026-01-16 13:34:35 - src.monitors.factory - INFO - Creating universal battery monitor
+2026-01-16 13:34:35 - src.monitors.factory - INFO - Creating speedtest network monitor
+2026-01-16 13:34:35 - src.monitors.factory - INFO - Creating Electricity Maps carbon monitor for zone IN
+2026-01-16 13:34:35 - src.orchestrator.decision_engine - INFO - Initialized 3 monitors: ['battery', 'network', 'carbon']
+2026-01-16 13:50:26 - root - INFO - Logging initialized (level: INFO)
+2026-01-16 13:50:26 - root - INFO - Log file: results/orchestrator.log
+2026-01-16 13:50:26 - src.monitors.factory - INFO - Creating universal battery monitor
+2026-01-16 13:50:26 - src.monitors.factory - INFO - Creating speedtest network monitor
+2026-01-16 13:50:26 - src.monitors.factory - INFO - Creating Electricity Maps carbon monitor for zone IN
+2026-01-16 13:50:26 - src.orchestrator.decision_engine - INFO - Initialized 3 monitors: ['battery', 'network', 'carbon']
+2026-01-20 10:41:15 - root - INFO - Logging initialized (level: INFO)
+2026-01-20 10:41:15 - root - INFO - Log file: results/orchestrator.log
+2026-01-20 10:41:15 - src.monitors.factory - INFO - Creating universal battery monitor
+2026-01-20 10:41:15 - src.monitors.factory - INFO - Creating speedtest network monitor
+2026-01-20 10:41:15 - src.monitors.factory - INFO - Creating Electricity Maps carbon monitor for zone IN
+2026-01-20 10:41:15 - src.orchestrator.decision_engine - INFO - Initialized 3 monitors: ['battery', 'network', 'carbon']
+2026-01-21 22:04:45 - root - INFO - Logging initialized (level: INFO)
+2026-01-21 22:04:45 - root - INFO - Log file: results/orchestrator.log
+2026-01-21 22:04:45 - src.monitors.factory - INFO - Creating universal battery monitor
+2026-01-21 22:04:45 - src.monitors.factory - INFO - Creating speedtest network monitor
+2026-01-21 22:04:45 - src.monitors.factory - INFO - Creating Electricity Maps carbon monitor for zone IN
+2026-01-21 22:04:45 - src.orchestrator.decision_engine - INFO - Initialized 3 monitors: ['battery', 'network', 'carbon']
+2026-01-21 22:13:39 - root - INFO - Logging initialized (level: INFO)
+2026-01-21 22:13:39 - root - INFO - Log file: results/orchestrator.log
+2026-01-21 22:13:39 - src.monitors.factory - INFO - Creating universal battery monitor
+2026-01-21 22:13:39 - src.monitors.factory - INFO - Creating speedtest network monitor
+2026-01-21 22:13:39 - src.monitors.factory - INFO - Creating Electricity Maps carbon monitor for zone IN
+2026-01-21 22:13:39 - src.orchestrator.decision_engine - INFO - Initialized 3 monitors: ['battery', 'network', 'carbon']
+2026-01-21 22:13:39 - src.orchestrator.decision_engine - INFO - Initialized Green AI Orchestrator v1.0.0
+2026-01-21 22:13:39 - src.orchestrator.decision_engine - INFO - Platform: Darwin
+2026-01-21 22:13:39 - src.orchestrator.decision_engine - INFO - Weights: {'battery': 0.4, 'carbon': 0.4, 'network': 0.2}
+2026-01-21 22:13:39 - src.orchestrator.decision_engine - INFO - Threshold: 0.6
+2026-01-21 22:13:39 - src.orchestrator.decision_engine - INFO - Output directory: results
+2026-01-21 22:23:28 - root - INFO - Logging initialized (level: INFO)
+2026-01-21 22:23:28 - root - INFO - Log file: results/orchestrator.log
+2026-01-21 22:23:28 - src.monitors.factory - INFO - Creating universal battery monitor
+2026-01-21 22:23:28 - src.monitors.factory - INFO - Creating speedtest network monitor
+2026-01-21 22:23:28 - src.monitors.factory - INFO - Creating Electricity Maps carbon monitor for zone IN
+2026-01-21 22:23:28 - src.orchestrator.decision_engine - INFO - Initialized 3 monitors: ['battery', 'network', 'carbon']
+2026-01-21 22:23:28 - src.orchestrator.decision_engine - INFO - Initialized Green AI Orchestrator v1.0.0
+2026-01-21 22:23:28 - src.orchestrator.decision_engine - INFO - Platform: Darwin
+2026-01-21 22:23:28 - src.orchestrator.decision_engine - INFO - Weights: {'battery': 0.4, 'carbon': 0.4, 'network': 0.2}
+2026-01-21 22:23:28 - src.orchestrator.decision_engine - INFO - Threshold: 0.6
+2026-01-21 22:23:28 - src.orchestrator.decision_engine - INFO - Output directory: results
+2026-01-21 22:25:19 - root - INFO - Logging initialized (level: INFO)
+2026-01-21 22:25:19 - root - INFO - Log file: results/orchestrator.log
+2026-01-21 22:25:19 - src.monitors.factory - INFO - Creating universal battery monitor
+2026-01-21 22:25:19 - src.monitors.factory - INFO - Creating speedtest network monitor
+2026-01-21 22:25:19 - src.monitors.factory - INFO - Creating Electricity Maps carbon monitor for zone IN
+2026-01-21 22:25:19 - src.orchestrator.decision_engine - INFO - Initialized 3 monitors: ['battery', 'network', 'carbon']
+2026-01-21 22:25:19 - src.orchestrator.decision_engine - INFO - Initialized Green AI Orchestrator v1.0.0
+2026-01-21 22:25:19 - src.orchestrator.decision_engine - INFO - Platform: Darwin
+2026-01-21 22:25:19 - src.orchestrator.decision_engine - INFO - Weights: {'battery': 0.4, 'carbon': 0.4, 'network': 0.2}
+2026-01-21 22:25:19 - src.orchestrator.decision_engine - INFO - Threshold: 0.6
+2026-01-21 22:25:19 - src.orchestrator.decision_engine - INFO - Output directory: results
+2026-01-21 22:25:19 - src.orchestrator.decision_engine - WARNING - Battery monitor has no readable method, using default 1.0
+2026-01-21 22:25:19 - src.orchestrator.decision_engine - WARNING - Network monitor has no readable method, using default 1.0
+2026-01-21 22:25:19 - src.orchestrator.decision_engine - WARNING - Carbon monitor has no readable method, using default 0.5
+2026-01-21 22:27:34 - root - INFO - Logging initialized (level: INFO)
+2026-01-21 22:27:34 - root - INFO - Log file: results/orchestrator.log
+2026-01-21 22:27:34 - src.monitors.factory - INFO - Creating universal battery monitor
+2026-01-21 22:27:34 - src.monitors.factory - INFO - Creating speedtest network monitor
+2026-01-21 22:27:34 - src.monitors.factory - INFO - Creating Electricity Maps carbon monitor for zone IN
+2026-01-21 22:27:34 - src.orchestrator.decision_engine - INFO - Initialized 3 monitors: ['battery', 'network', 'carbon']
+2026-01-21 22:27:34 - src.orchestrator.decision_engine - INFO - Initialized Green AI Orchestrator v1.0.0
+2026-01-21 22:27:34 - src.orchestrator.decision_engine - INFO - Platform: Darwin
+2026-01-21 22:27:34 - src.orchestrator.decision_engine - INFO - Weights: {'battery': 0.4, 'carbon': 0.4, 'network': 0.2}
+2026-01-21 22:27:34 - src.orchestrator.decision_engine - INFO - Threshold: 0.6
+2026-01-21 22:27:34 - src.orchestrator.decision_engine - INFO - Output directory: results
+2026-01-21 22:27:34 - src.orchestrator.decision_engine - WARNING - Battery monitor has no readable method, using default 1.0
+2026-01-21 22:27:34 - src.orchestrator.decision_engine - WARNING - Network monitor has no readable method, using default 1.0
+2026-01-21 22:27:34 - src.orchestrator.decision_engine - WARNING - Carbon monitor has no readable method, using default 0.5
+2026-01-21 22:28:47 - root - INFO - Logging initialized (level: INFO)
+2026-01-21 22:28:47 - root - INFO - Log file: results/orchestrator.log
+2026-01-21 22:28:47 - src.monitors.factory - INFO - Creating universal battery monitor
+2026-01-21 22:28:47 - src.monitors.factory - INFO - Creating speedtest network monitor
+2026-01-21 22:28:47 - src.monitors.factory - INFO - Creating Electricity Maps carbon monitor for zone IN
+2026-01-21 22:28:47 - src.orchestrator.decision_engine - INFO - Initialized 3 monitors: ['battery', 'network', 'carbon']
+2026-01-21 22:28:47 - src.orchestrator.decision_engine - INFO - Initialized Green AI Orchestrator v1.0.0
+2026-01-21 22:28:47 - src.orchestrator.decision_engine - INFO - Platform: Darwin
+2026-01-21 22:28:47 - src.orchestrator.decision_engine - INFO - Weights: {'battery': 0.4, 'carbon': 0.4, 'network': 0.2}
+2026-01-21 22:28:47 - src.orchestrator.decision_engine - INFO - Threshold: 0.6
+2026-01-21 22:28:47 - src.orchestrator.decision_engine - INFO - Output directory: results
+2026-01-21 22:28:47 - src.orchestrator.decision_engine - WARNING - Battery monitor has no readable method, using default 1.0
+2026-01-21 22:28:47 - src.orchestrator.decision_engine - WARNING - Network monitor has no readable method, using default 1.0
+2026-01-21 22:28:47 - src.orchestrator.decision_engine - WARNING - Carbon monitor has no readable method, using default 0.5
+2026-01-21 22:40:14 - root - INFO - Logging initialized (level: INFO)
+2026-01-21 22:40:14 - root - INFO - Log file: results/orchestrator.log
+2026-01-21 22:40:14 - src.monitors.factory - INFO - Creating universal battery monitor
+2026-01-21 22:40:14 - src.monitors.factory - INFO - Creating speedtest network monitor
+2026-01-21 22:40:14 - src.monitors.factory - INFO - Creating Electricity Maps carbon monitor for zone IN
+2026-01-21 22:40:14 - src.orchestrator.decision_engine - INFO - Initialized 3 monitors: ['battery', 'network', 'carbon']
+2026-01-21 22:40:14 - src.orchestrator.decision_engine - INFO - Initialized Green AI Orchestrator v1.0.0
+2026-01-21 22:40:14 - src.orchestrator.decision_engine - INFO - Platform: Darwin
+2026-01-21 22:40:14 - src.orchestrator.decision_engine - INFO - Weights: {'battery': 0.4, 'carbon': 0.4, 'network': 0.2}
+2026-01-21 22:40:14 - src.orchestrator.decision_engine - INFO - Threshold: 0.6
+2026-01-21 22:40:14 - src.orchestrator.decision_engine - INFO - Output directory: results
+2026-01-21 22:40:14 - src.orchestrator.decision_engine - WARNING - Battery monitor has no readable method, using default 0.5
+2026-01-21 22:40:14 - src.orchestrator.decision_engine - WARNING - Network monitor has no readable method, using default 0.5
+2026-01-21 22:40:14 - src.orchestrator.decision_engine - WARNING - Carbon monitor has no readable method, using default 0.5
+2026-01-21 22:41:13 - root - INFO - Logging initialized (level: INFO)
+2026-01-21 22:41:13 - root - INFO - Log file: results/orchestrator.log
+2026-01-21 22:41:13 - src.monitors.factory - INFO - Creating universal battery monitor
+2026-01-21 22:41:13 - src.monitors.factory - INFO - Creating speedtest network monitor
+2026-01-21 22:41:13 - src.monitors.factory - INFO - Creating Electricity Maps carbon monitor for zone IN
+2026-01-21 22:41:13 - src.orchestrator.decision_engine - INFO - Initialized 3 monitors: ['battery', 'network', 'carbon']
+2026-01-21 22:41:13 - src.orchestrator.decision_engine - INFO - Initialized Green AI Orchestrator v1.0.0
+2026-01-21 22:41:13 - src.orchestrator.decision_engine - INFO - Platform: Darwin
+2026-01-21 22:41:13 - src.orchestrator.decision_engine - INFO - Weights: {'battery': 0.4, 'network': 0.2, 'carbon': 0.4}
+2026-01-21 22:41:13 - src.orchestrator.decision_engine - INFO - Threshold: 0.6
+2026-01-21 22:41:13 - src.orchestrator.decision_engine - INFO - Output directory: results
+2026-01-21 22:41:13 - src.orchestrator.decision_engine - WARNING - Battery monitor has no readable method, using default 0.5
+2026-01-21 22:41:13 - src.orchestrator.decision_engine - WARNING - Network monitor has no readable method, using default 0.5
+2026-01-21 22:41:13 - src.orchestrator.decision_engine - WARNING - Carbon monitor has no readable method, using default 0.5
+2026-01-21 22:41:13 - src.orchestrator.decision_engine - INFO - Decision made: Score=0.500, Confidence=0.935, Mode=cloud_only
+2026-01-21 22:50:31,454 - src.monitors.factory - INFO - Creating universal battery monitor
+2026-01-21 22:50:31,491 - src.monitors.factory - INFO - Creating speedtest network monitor
+2026-01-21 22:50:31,491 - src.monitors.factory - INFO - Creating Electricity Maps carbon monitor for zone IN
+2026-01-21 22:50:31,491 - src.orchestrator.decision_engine - INFO - Initialized 3 monitors: ['battery', 'network', 'carbon']
+2026-01-21 22:50:31,491 - src.orchestrator.decision_engine - INFO - Initialized Green AI Orchestrator v1.0.0
+2026-01-21 22:50:31,491 - src.orchestrator.decision_engine - INFO - Platform: Darwin
+2026-01-21 22:50:31,492 - src.orchestrator.decision_engine - INFO - Weights: {'battery': 0.4, 'network': 0.3, 'carbon': 0.3}
+2026-01-21 22:50:31,492 - src.orchestrator.decision_engine - INFO - Threshold: 0.5
+2026-01-21 22:50:31,492 - src.orchestrator.decision_engine - INFO - Output directory: results
+2026-01-21 22:50:31,492 - src.orchestrator.decision_engine - WARNING - Battery monitor has no readable method, using default 0.5
+2026-01-21 22:50:31,492 - src.orchestrator.decision_engine - WARNING - Network monitor has no readable method, using default 0.5
+2026-01-21 22:50:31,492 - src.orchestrator.decision_engine - WARNING - Carbon monitor has no readable method, using default 0.5
+2026-01-21 22:50:31,492 - src.orchestrator.decision_engine - INFO - Decision made: Score=0.500, Confidence=0.935, Mode=deferred
+2026-01-21 22:55:21,819 - src.monitors.factory - INFO - Creating universal battery monitor
+2026-01-21 22:55:21,850 - src.monitors.factory - INFO - Creating speedtest network monitor
+2026-01-21 22:55:21,850 - src.monitors.factory - INFO - Creating Electricity Maps carbon monitor for zone IN
+2026-01-21 22:55:21,850 - src.orchestrator.decision_engine - INFO - Initialized 3 monitors: ['battery', 'network', 'carbon']
+2026-01-21 22:55:21,850 - src.orchestrator.decision_engine - INFO - Initialized Green AI Orchestrator v1.0.0
+2026-01-21 22:55:21,850 - src.orchestrator.decision_engine - INFO - Platform: Darwin
+2026-01-21 22:55:21,850 - src.orchestrator.decision_engine - INFO - Weights: {'battery': 0.4, 'network': 0.3, 'carbon': 0.3}
+2026-01-21 22:55:21,850 - src.orchestrator.decision_engine - INFO - Threshold: 0.5
+2026-01-21 22:55:21,850 - src.orchestrator.decision_engine - INFO - Output directory: results
+2026-01-21 22:55:21,850 - src.orchestrator.decision_engine - WARNING - Battery monitor has no readable method, using default 0.5
+2026-01-21 22:55:21,850 - src.orchestrator.decision_engine - WARNING - Network monitor has no readable method, using default 0.5
+2026-01-21 22:55:21,850 - src.orchestrator.decision_engine - WARNING - Carbon monitor has no readable method, using default 0.5
+2026-01-21 22:55:21,850 - src.orchestrator.decision_engine - INFO - Decision made: Score=0.500, Confidence=0.935, Mode=deferred
+2026-01-21 23:43:45,765 - src.monitors.factory - INFO - Creating universal battery monitor
+2026-01-21 23:43:45,797 - src.monitors.factory - INFO - Creating speedtest network monitor
+2026-01-21 23:43:45,797 - src.monitors.factory - INFO - Creating Electricity Maps carbon monitor for zone IN
+2026-01-21 23:43:45,797 - src.orchestrator.decision_engine - INFO - Initialized 3 monitors: ['battery', 'network', 'carbon']
+2026-01-21 23:43:45,797 - src.orchestrator.decision_engine - INFO - Initialized Green AI Orchestrator v1.0.0
+2026-01-21 23:43:45,797 - src.orchestrator.decision_engine - INFO - Platform: Darwin
+2026-01-21 23:43:45,797 - src.orchestrator.decision_engine - INFO - Weights: {'battery': 0.4, 'network': 0.3, 'carbon': 0.3}
+2026-01-21 23:43:45,797 - src.orchestrator.decision_engine - INFO - Threshold: 0.5
+2026-01-21 23:43:45,797 - src.orchestrator.decision_engine - INFO - Output directory: results
+2026-01-21 23:43:45,797 - src.orchestrator.decision_engine - WARNING - Battery monitor has no readable method, using default 0.5
+2026-01-21 23:43:45,797 - src.orchestrator.decision_engine - WARNING - Network monitor has no readable method, using default 0.5
+2026-01-21 23:43:45,797 - src.orchestrator.decision_engine - WARNING - Carbon monitor has no readable method, using default 0.5
+2026-01-21 23:43:45,797 - src.orchestrator.decision_engine - INFO - Decision made: Score=0.500, Confidence=0.935, Mode=deferred

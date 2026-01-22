@@ -1,0 +1,45 @@
+# config/settings.yaml
+
+orchestrator:
+  weights:
+    battery: 0.4
+    carbon: 0.4
+    network: 0.2
+  threshold: 0.6
+  hard_edge_battery: 20.0
+  hard_cloud_battery: 80.0
+
+monitors:
+  battery:
+    enabled: true
+    use_universal: true
+    use_simulation: false
+
+  network:
+    enabled: true
+    use_speedtest: true
+    fallback_to_ping: true
+    use_simulation: false
+    thresholds:
+      excellent: 50.0  # Mbps
+      good: 20.0
+      poor: 5.0
+
+  carbon:
+    enabled: true
+    use_simulation: true  # Set to false and provide API key for real data
+    zone: "IN"
+    green_threshold: 300.0  # gCO2/kWh
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/orchestrator.log"
+
+output:
+  directory: "results"
+  save_decisions: true
+  save_history: true
+
+api_keys:
+  electricity_maps: null  # Set your API key here or use environment variable

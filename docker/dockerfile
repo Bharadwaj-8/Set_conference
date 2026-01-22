@@ -1,0 +1,40 @@
+# docker/Dockerfile
+FROM python:3.9-slim
+
+WORKDIR /app
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    iputils-ping \
+    curl \
+    procps \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copy requirements
+COPY requirements.txt .
+
+# Install Python dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy application
+COPY . .
+
+# Create non-root user
+RUN useradd -m -u 1000 greenai && chown -R greenai:greenai /app
+USER greenai
+
+# Environment variables
+ENV PYTHONPATH=/app/src
+ENV ELECTRICITY_MAPS_API_KEY=""
+ENV LOG_LEVEL="INFO"
+ENV OUTPUT_DIR="/app/results"
+
+# Create output directory
+RUN mkdir -p /app/results
+
+# Health check
+HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
+    CMD python -c "import sys; sys.path.insert(0, '/app/src'); from utils.platform import get_platform_info; print('Health check passed')" || exit 1
+
+# Run application
+CMD ["python", "run.py", "--interval", "300", "--output", "/app/results"]
